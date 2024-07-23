@@ -20,9 +20,9 @@ const App = () => {
           <div className="min-h-screen flex items-center justify-center">
         <Routes>
             <Route path='/' element={<HomePage/>}/>
-            <Route path='nuisibles' element={<Nuisibles/>}/>
-            <Route path='galerie' element={<Galerie/>}/>
-            <Route path='contact' element={<Contact/>}/>
+            <Route path='/nuisibles' element={<Nuisibles/>}/>
+            <Route path='/galerie' element={<Galerie/>}/>
+            <Route path='/contact' element={<Contact/>}/>
             <Route path='*' element={<Navigate to="/" />} />
         </Routes>
           </div>
