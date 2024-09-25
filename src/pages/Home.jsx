@@ -21,13 +21,15 @@ const HomePage = () => {
         <div className="location">
           <img className="h-96 rounded-2xl" src={MapImg} alt="Carte du champ d'action"/>
         </div>
-        <div className="bugs rounded-2xl bg-white border-4 border-green-200 p-10 text-center text-xl">
+        <div className="bugs rounded-2xl bg-amber-50 border-4 border-green-200 p-10 text-center text-xl">
           <ul>
             <li>Destruction de nids de guêpes</li>
             <li>***</li>
             <li>Élimination de frelons européens et asiatiques</li>
             <li>***</li>
             <li>Récupération d'essaims d'abeilles</li>
+            <li>***</li>
+            <li>Traitement contre les puces, les fourmis et les mouches</li>
           </ul>
         </div>
         <div className="pic">

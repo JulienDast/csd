@@ -2,6 +2,9 @@ import frelonAsiat from '../assets/images/nuisibles/frelonasiatique.jpg';
 import frelonEur from '../assets/images/nuisibles/freloneuropeen.jpg';
 import nidabeilles from '../assets/images/nuisibles/nidabeilles.jpg';
 import nidguepes from '../assets/images/nuisibles/nidguepes.jpg';
+import fourmis from '../assets/images/nuisibles/fourmis.jpg';
+import puces from '../assets/images/nuisibles/puces.jpg';
+import mouche from '../assets/images/nuisibles/mouche.jpg';
 
 const Nuisibles = () => {
   return (
@@ -58,6 +61,46 @@ const Nuisibles = () => {
           <h2 className="text-xl font-bold mb-2 text-center">Abeilles</h2>
           <p className="text-gray-700 text-center">
             Les abeilles, comme les abeilles domestiques, sont principalement connues pour leur rôle dans la pollinisation. Elles mesurent entre 11 et 13 mm et sont peu agressives, sauf en cas de menace.
+          </p>
+        </div>
+      </div>
+
+      <div className="flex flex-col md:flex-row justify-center mt-10 bg-white rounded-lg shadow-lg overflow-hidden">
+        <img
+          src={fourmis}
+          alt="fourmilière"
+          className="w-full md:w-1/2 h-full object-cover"
+        />
+        <div className="md:w-1/2 p-4 flex flex-col justify-center items-center">
+          <h2 className="text-xl font-bold mb-2 text-center">Fourmis</h2>
+          <p className="text-gray-700 text-center">
+          Les fourmis communes dans le nord de la France mesurent entre 3 et 5 mm. Leur corps est généralement noir ou brun foncé. Peu agressives envers l'homme, elles peuvent mordre si elles se sentent menacées.</p>
+        </div>
+      </div>
+
+      <div className="flex flex-col md:flex-row justify-center mt-10 bg-white rounded-lg shadow-lg overflow-hidden">
+        <img
+          src={puces}
+          alt="puce"
+          className="w-full md:w-1/2 h-full object-cover"
+        />
+        <div className="md:w-1/2 p-4 flex flex-col justify-center items-center">
+          <h2 className="text-xl font-bold mb-2 text-center">Puces</h2>
+          <p className="text-gray-700 text-center">
+            Les puces ont un corps brun foncé est aplati latéralement. Très agiles, elles peuvent sauter jusqu'à 30 cm de haut. Ces parasites se nourrissent du sang, causant démangeaisons et allergies. Une femelle peut pondre jusqu'à 50 œufs par jour.</p>
+        </div>
+      </div>
+
+      <div className="flex flex-col md:flex-row justify-center mt-10 bg-white rounded-lg shadow-lg overflow-hidden">
+        <img
+          src={mouche}
+          alt="mouche"
+          className="w-full md:w-1/2 h-full object-cover"
+        />
+        <div className="md:w-1/2 p-4 flex flex-col justify-center items-center">
+          <h2 className="text-xl font-bold mb-2 text-center">Mouches</h2>
+          <p className="text-gray-700 text-center">
+            La mouche domestique mesure entre 5 et 8 mm. Ces insectes sont attirés par les déchets organiques et se reproduisent rapidement, pondant jusqu'à 1 000 œufs au cours de leur vie. Elles peuvent transmettre des maladies en se posant sur les aliments. 
           </p>
         </div>
       </div>
