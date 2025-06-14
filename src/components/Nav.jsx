@@ -41,7 +41,7 @@ const NavbarApp = () => {
       >
           <BugAntIcon className="h-10 w-10 text-black" />
         <Link to='/nuisibles'>
-            LES INSECTES
+            LES NUISIBLES
         </Link>
       </Typography>
       <Typography
