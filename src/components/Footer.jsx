@@ -7,7 +7,7 @@ const Footer = () => {
       <Typography 
         color="white"  
       >
-        ©2024 ChristopheSabine_Désinsectisation
+        ©2025 ChristopheSabine_Désinsectisation
       </Typography>
       <ul className="flex flex-wrap items-center justify-center gap-y-2 gap-x-8">
         <li>
