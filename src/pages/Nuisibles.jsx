@@ -5,6 +5,8 @@ import nidguepes from '../assets/images/nuisibles/nidguepes.jpg';
 import fourmis from '../assets/images/nuisibles/fourmis.jpg';
 import puces from '../assets/images/nuisibles/puces.jpg';
 import mouche from '../assets/images/nuisibles/mouche.jpg';
+import rat from '../assets/images/nuisibles/rat.jpg';
+import chenille from '../assets/images/nuisibles/chenille.jpg';
 
 const Nuisibles = () => {
   return (
@@ -104,6 +106,35 @@ const Nuisibles = () => {
           </p>
         </div>
       </div>
+
+      <div className="flex flex-col md:flex-row justify-center mt-10 bg-white rounded-lg shadow-lg overflow-hidden">
+        <img
+          src={rat}
+          alt="rat"
+          className="w-full md:w-1/2 h-full object-cover"
+        />
+        <div className="md:w-1/2 p-4 flex flex-col justify-center items-center">
+          <h2 className="text-xl font-bold mb-2 text-center">Puces</h2>
+          <p className="text-gray-700 text-center">
+            Les rats ont un pelage gris ou brun et un corps allongé. Très rapides, ils grimpent et nagent aisément. Ces rongeurs nuisibles s’attaquent à la nourriture et propagent des maladies. Une femelle peut avoir jusqu’à 60 petits par an.
+          </p> 
+        </div>
+      </div>
+
+      <div className="flex flex-col md:flex-row justify-center mt-10 bg-white rounded-lg shadow-lg overflow-hidden">
+        <img
+          src={chenille}
+          alt="chenille"
+          className="w-full md:w-1/2 h-full object-cover"
+        />
+        <div className="md:w-1/2 p-4 flex flex-col justify-center items-center">
+          <h2 className="text-xl font-bold mb-2 text-center">Puces</h2>
+          <p className="text-gray-700 text-center">
+            Les chenilles processionnaires sont brun orangé ou gris argenté, avec un corps velu de 4 cm. Elles vivent en groupe et se déplacent en file indienne. Leurs poils urticants provoquent démangeaisons, allergies et inflammations graves. Pour les chiens, le danger est majeur : un simple contact peut entraîner douleur intense, nécrose de la langue, voire la mort. Une colonie peut contenir plusieurs centaines d’individus.
+          </p>
+        </div>
+      </div>
+      
     </div>
   );
 };
