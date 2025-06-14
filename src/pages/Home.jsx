@@ -30,6 +30,8 @@ const HomePage = () => {
             <li>Récupération d'essaims d'abeilles</li>
             <li>***</li>
             <li>Traitement contre les puces, les fourmis et les mouches</li>
+            <li>***</li>
+            <li>Dératisation et éradication des chenilles porcessionnaires</li>
           </ul>
         </div>
         <div className="pic">
