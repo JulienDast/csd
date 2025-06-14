@@ -31,7 +31,9 @@ const HomePage = () => {
             <li>***</li>
             <li>Traitement contre les puces, les fourmis et les mouches</li>
             <li>***</li>
-            <li>Dératisation et éradication des chenilles porcessionnaires</li>
+            <li>Dératisation</li>
+            <li>***</li>
+            <li>Éradication des chenilles porcessionnaires</li>
           </ul>
         </div>
         <div className="pic">
